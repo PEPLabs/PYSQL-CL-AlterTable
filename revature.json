@@ -1,0 +1,15 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "tests/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_problem1",
+          "label": "Verify the lastname column was added",
+          "description": "Runs problem1(), which should add a lastname column to site_user, then confirms it can be queried."
+        }
+      ]
+    }
+  ]
+}
